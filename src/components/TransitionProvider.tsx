@@ -2,7 +2,7 @@
 
 
 import { AnimatePresence, delay, motion } from "framer-motion"
-import Navbar from "./navbar";
+import Navbar from "./NavBar";
 import { usePathname } from "next/navigation";
 
 const TransitionProvider = ({ children }: Readonly<{
