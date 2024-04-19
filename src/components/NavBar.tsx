@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import NavLink from "./NavLink";
+import { ThemeToggle } from "./ThemeToggle";
 
 const links = [
     { url: "/", title: "Home" },
@@ -99,6 +100,7 @@ const Navbar = () => {
                 <Link href="#">
                     <Image src="/linkedin.png" alt="" width={24} height={24}/>
                 </Link>
+                <ThemeToggle />
             </div>
 
             {/* RESPONSIVE MENU */}

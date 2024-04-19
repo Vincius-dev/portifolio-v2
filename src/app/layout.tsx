@@ -19,15 +19,15 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>
-        <TransitionProvider>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange>
+          <TransitionProvider>
             {children}
-          </ThemeProvider>
-        </TransitionProvider>
+          </TransitionProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
