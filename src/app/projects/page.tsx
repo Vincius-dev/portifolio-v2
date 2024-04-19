@@ -2,7 +2,7 @@
 
 import {motion} from "framer-motion";
 
-const PortfolioPage = () => {
+const ProjectsPage = () => {
     return (
         <motion.div 
             className="h-full" 
@@ -15,4 +15,4 @@ const PortfolioPage = () => {
     )
 }
 
-export default PortfolioPage;
+export default ProjectsPage;

@@ -11,7 +11,7 @@ import { ThemeToggle } from "./ThemeToggle";
 const links = [
     { url: "/", title: "Home" },
     { url: "/about", title: "About" },
-    { url: "/portfolio", title: "Portfolio" },
+    { url: "/projects", title: "Projects" },
     { url: "/contact", title: "Contact" },
 ];
 
@@ -75,31 +75,32 @@ const Navbar = () => {
         <div className='h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
             
             {/* LINKS */}
-            <div className="hidden md:flex gap-4 w-1/3">
+            <div className="hidden md:flex gap-4 w-2/4">
                 {links.map(link=>(
                     <NavLink link={link} key={link.title} />
                 ))}
             </div>
 
             {/* LOGO */}
-            <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
+            <div className="md:hidden lg:flex xl:w-1/4 xl:justify-center">
                 <Link
                     href="/"
-                    className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
+                    className="text-sm bg-black dark:bg-purple-700 rounded-md p-1 font-semibold flex items-center justify-center"
                 >
                     <span className="text-white mr-1">Vinicius</span>
-                    <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">dev</span>
+                    <span className="w-12 h-8 rounded bg-white text-black dark:bg-black dark:text-white flex items-center justify-center">dev</span>
                 </Link>
             </div>
             
             {/* SOCIAL */}
-            <div className="hidden md:flex gap-4 w-1/3">
+            <div className="hidden md:flex gap-4 w-1/4">
                 <Link href="#">
-                    <Image src="/github.png" alt="" width={24} height={24}/>
+                    <Image src="/github.png" alt="" className="bg-white rounded-md" width={24} height={24}/>
                 </Link>
                 <Link href="#">
                     <Image src="/linkedin.png" alt="" width={24} height={24}/>
                 </Link>
+                <div className="ml-6"></div>
                 <ThemeToggle />
             </div>
 

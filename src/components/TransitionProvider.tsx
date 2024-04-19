@@ -13,9 +13,9 @@ const TransitionProvider = ({ children }: Readonly<{
 
     return (
         <AnimatePresence mode="wait">
-            <div key={pathName} className="w-screen h-screen bg-gradient-to-b from-blue-100 ro-red-100">
+            <div key={pathName} className="w-screen h-screen">
                 <motion.div
-                    className="w-screen h-screen fixed bg-black rounded-b-[100px] z-40"
+                    className="w-screen h-screen fixed bg-black dark:bg-purple-700 rounded-b-[100px] z-40"
                     animate={{ height: "0vh" }}
                     exit={{ height: "140vh" }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
@@ -32,7 +32,7 @@ const TransitionProvider = ({ children }: Readonly<{
                 </motion.div>
 
                 <motion.div
-                    className="w-screen h-screen fixed bg-black rounded-t-[100px] bottom-0 z-30"
+                    className="w-screen h-screen fixed dark:bg-purple-700 rounded-t-[100px] bottom-0 z-30"
                     initial={{ height: "140vh" }}
                     animate={{ height:"0vh", transition: {delay:0.5}}}
                 />
