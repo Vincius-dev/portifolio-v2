@@ -22,7 +22,7 @@ export default function Home() {
             <h1 className="xl:text-5xl sm:text-lg md:text-2xl font-bold m-4 text-left">Vinícius Gabriel</h1>
             <h3 className="m-4 text-left"><b className="underline dark:text-purple-600">Back-End Developer</b> - Java / Spring Boot</h3>
             <h3 className="m-4 text-left">Sou um <b className="underline dark:text-purple-600">profissional completo</b>, além de back-end<p></p> possuo conhecimentos em <b className="underline dark:text-purple-600">Front</b>, <b className="underline dark:text-purple-600">Redes</b> e <b className="underline dark:text-purple-600">Devops</b></h3>
-            <h3 className="m-4 text-left">Conheça meus projetos =><Button><Link href="/projects">Projetos</Link></Button>
+            <h3 className="m-4 text-left">Conheça meus projetos: <Button><Link href="/projects">Projetos</Link></Button>
           </h3>
         </div>
       </div>
