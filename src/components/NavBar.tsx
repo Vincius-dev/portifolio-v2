@@ -78,6 +78,7 @@ const Navbar = () => {
       <div className="hidden md:flex gap-4 w-2/4">
         {links.map(link => (
           <div
+            key={link.title}
             onMouseEnter={() => setSelectedTab(link.title)}
             onMouseLeave={() => {
               setTimeout(() => {
@@ -96,7 +97,7 @@ const Navbar = () => {
                 layoutId="navlink"
                 transition={{ type: 'spring', bounce: 0.35, duration: 1 }}
               >
-                <NavLink link={link} key={link.title} />
+                <NavLink link={link}  />
               </motion.div>
             )}
           </div>
