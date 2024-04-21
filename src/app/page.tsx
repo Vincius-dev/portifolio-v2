@@ -1,5 +1,6 @@
 "use client"
 
+import { Reveal } from "@/components/Reveal";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -19,19 +20,36 @@ export default function Home() {
             <Image src="/perfil.jpeg" alt="Profile Picture" width={450} height={450} className="rounded-2xl lg:mx-auto md:lg:mx-auto sm:n-2" /> {/* Add mx-auto class to center the image */}
           </div>
           <div className="w-4/5 sm:w-4/5 text-lg md:text-xl xl:text-2xl sm:text-sm">
-            <h1 className="xl:text-5xl sm:text-lg md:text-2xl font-bold m-4 text-left">Vinícius Gabriel</h1>
-            <h3 className="m-4 text-left"><b className="underline dark:text-purple-600">Back-End Developer</b> - Java / Spring Boot</h3>
-            <h3 className="m-4 text-left">Sou um <b className="underline dark:text-purple-600">profissional completo</b>, além de back-end<p></p> possuo conhecimentos em <b className="underline dark:text-purple-600">Front</b>, <b className="underline dark:text-purple-600">Redes</b> e <b className="underline dark:text-purple-600">Devops</b></h3>
-            <h3 className="m-4 text-left">Conheça meus projetos <motion.div
-              className="inline-block"
-              whileHover={{ scale: 1.3 }}
-              whileTap={{ scale: 0.9 }}
-              transition={{ type: "spring", stiffness: 300 }}
-              >
-                <Button>
-                  <Link href="/projects">Projetos</Link>
-                </Button>
-              </motion.div></h3>
+            <Reveal>
+              <div>
+                <h1 className="xl:text-5xl sm:text-lg md:text-2xl font-bold m-4 text-left">Vinícius Gabriel</h1>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div>
+                <h3 className="m-4 text-left"><b className="underline dark:text-purple-600">Back-End Developer</b> - Java / Spring Boot</h3>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div>
+                <h3 className="m-4 text-left">Sou um <b className="underline dark:text-purple-600">profissional completo</b>, além de back-end<p></p> possuo conhecimentos em <b className="underline dark:text-purple-600">Front</b>, <b className="underline dark:text-purple-600">Redes</b> e <b className="underline dark:text-purple-600">Devops</b></h3>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div>
+                <h3 className="m-4 text-left">Conheça meus projetos <motion.div
+                  className="inline-block"
+                  whileHover={{ scale: 1.3 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
+                  <Button>
+                    <Link href="/projects">Projetos</Link>
+                  </Button>
+                </motion.div>
+                </h3>
+              </div>
+            </Reveal>
           </div>
         </div>
       </main>
