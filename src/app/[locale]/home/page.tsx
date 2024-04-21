@@ -58,7 +58,7 @@ export default function Home() {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Button>
-                    <Link href="/projects">{c('projects')}</Link>
+                    <Link href="projects">{c('projects')}</Link>
                   </Button>
                 </motion.div>
                 </h3>

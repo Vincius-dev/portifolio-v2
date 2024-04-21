@@ -19,13 +19,13 @@ const ProjectComponent: React.FC<ProjectProps> = ({ image, title, repoLink, prod
     const p = useTranslations('projects');
 
     return (
-        <div className="lg:ml-24 m-4">
+        <div className="lg:ml-24 m-4 text-justify">
             <Reveal>
                 <h1 className="text-2xl hover:underline p-2 font-bold text-black dark:text-purple-700  ">
                     {title}
                 </h1>
             </Reveal>
-            <div className="w-5/6 h-72 rounded-3xl shadow-md shadow-black dark:shadow-purple-600 inline-flex">
+            <div className="w-5/6 h-80 sm:h-72 md:h-72 lg:h-72 rounded-3xl shadow-md shadow-black dark:shadow-purple-600 inline-flex">
                 <div className="lg:w-2/4 md:w-2/4 sm:w-1/4 rounded-l-3xl bg-slate-800 " style={{ backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.25)' }}>
                     <p></p>
                 </div>
@@ -39,7 +39,7 @@ const ProjectComponent: React.FC<ProjectProps> = ({ image, title, repoLink, prod
                     <Reveal>
                         <p className="mt-4">{about}</p>
                     </Reveal>
-                    <div className="mt-6 inline-flex">
+                    <div className="mt-2 inline-flex">
                         {technologies.map(tech =>
                             <Image key={tech} src={tech} alt="tech-image" width={44} height={44} />
                         )}
