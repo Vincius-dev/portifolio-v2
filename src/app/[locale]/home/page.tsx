@@ -1,12 +1,17 @@
 "use client"
 
 import { Reveal } from "@/components/Reveal";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import {useTranslations} from 'next-intl';
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+
+  const t = useTranslations('home');
+  const c = useTranslations('commons');
+
   return (
     <motion.div
       className="h-full"
@@ -27,24 +32,33 @@ export default function Home() {
             </Reveal>
             <Reveal>
               <div>
-                <h3 className="m-4 text-left"><b className="underline dark:text-purple-600">Back-End Developer</b> - Java / Spring Boot</h3>
+                <h3 className="m-4 text-left"><b className="underline dark:text-purple-600">{t('text-1-p1')}</b> {t('text-1-p2')}</h3>
               </div>
             </Reveal>
             <Reveal>
               <div>
-                <h3 className="m-4 text-left">Sou um <b className="underline dark:text-purple-600">profissional completo</b>, além de back-end<p></p> possuo conhecimentos em <b className="underline dark:text-purple-600">Front</b>, <b className="underline dark:text-purple-600">Redes</b> e <b className="underline dark:text-purple-600">Devops</b></h3>
+                <h3 className="m-4 text-pretty"> {t('text-2-p1')} 
+                  <b className="underline dark:text-purple-600">{t('text-2-p2')}</b>
+                  {t('text-2-p3')}
+                  <b className="underline dark:text-purple-600">{t('text-2-p4')}</b>
+                  , 
+                  <b className="underline dark:text-purple-600">{t('text-2-p5')}</b>
+                  {t('text-2-p6')} 
+                  <b className="underline dark:text-purple-600">{t('text-2-p7')}</b>
+                  .
+                </h3>
               </div>
             </Reveal>
             <Reveal>
               <div>
-                <h3 className="m-4 text-left">Conheça meus projetos <motion.div
+                <h3 className="m-4 text-left"> {t('text-3')} <motion.div
                   className="inline-block"
                   whileHover={{ scale: 1.3 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Button>
-                    <Link href="/projects">Projetos</Link>
+                    <Link href="/projects">{c('projects')}</Link>
                   </Button>
                 </motion.div>
                 </h3>

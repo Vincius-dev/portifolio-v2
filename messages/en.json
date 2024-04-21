@@ -1,0 +1,37 @@
+{
+  "home": {
+    "text-1-p1": "Back-End Developer ",
+    "text-1-p2": "- Java / Spring Boot",
+    "text-2-p1": "I am a ",
+    "text-2-p2": "complete professional",
+    "text-2-p3": ", besides back-end I have knowledge in ",
+    "text-2-p4": "Front-End ",
+    "text-2-p5": "Infra ",
+    "text-2-p6": "and ",
+    "text-2-p7": "Devops",
+    "text-3": "Check out my projects "
+  },
+  "commons": {
+    "home": "Home",
+    "projects": "Projects",
+    "experience": "Experience",
+    "about": "About"
+  },
+  "projects": {
+    "repository-title": "Project Repository",
+    "project-execution-title": "Project in Execution",
+    "linear-system-title": "Linear Systems Calculator",
+    "linear-system-description": "A calculator that solves linear systems with n variables using the Gauss method. The user can input the equations and the program returns the solution of the system.",
+    "party-manager-title": "Birthday Party Manager",
+    "party-manager-description": "A project for managing birthday parties. The user can create, edit, and delete parties, as well as view the parties already created."
+  },
+  "about":{
+    "title": "About:",
+    "text-1": "My name is Vinícius and I am passionate about technology, music, games, and the geek universe as a whole. Quite often, I find myself picking up a game or an anime to watch. One of my hobbies is translating some of these from English to Portuguese for free, to allow other readers to also appreciate these works.",
+    "text-2": "I started my studies in computing around 2018, during the first year of high school, where I began studying systems development. During this time, in addition to school classes, I also started following the lessons of Master Guanabara (YouTube channel: Curso em Vídeo), getting my hands dirty with Python, HTML, CSS, and JS.",
+    "text-3": "Over the years, I have learned many things. As soon as I finished high school, I started my professional career as a support analyst and simultaneously began studying computer science at college. Work helped me solidify various networking knowledge I already had, as well as greatly improving my communication skills, as I had to deal with various clients daily, and I have always been somewhat shy.",
+    "text-4": "As semesters went by, working and studying, I began looking for opportunities to work in development and in 2023, I started as a junior Java developer, which helped me direct my studies, and thus, I decided to focus on backend with Java and Spring Boot. By this time, I already had a general knowledge of the area.",
+    "text-5": "I am currently in the 7th semester of computer science at Universidade São Judas Tadeu, where I acquired technical knowledge regarding computing processes and development as a whole, logic, data structures, databases, AI and language models, JavaScript, Node.js, Angular, Python, and Java.",
+    "text-6": "And I continue studying, starting new projects, sometimes continuing old ones, always avoiding stagnation."
+  }
+}

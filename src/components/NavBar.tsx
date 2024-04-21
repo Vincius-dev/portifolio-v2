@@ -7,18 +7,20 @@ import Link from "next/link";
 import { useState } from "react";
 import NavLink from "./NavLink";
 import { ThemeToggle } from "./ThemeToggle";
+import { useTranslations } from "next-intl";
 
-const links = [
-  { url: "/", title: "Home" },
-  { url: "/projects", title: "Projects" },
-  { url: "/experience", title: "Experience" },
-  { url: "/about", title: "About" },
-];
-
-const Navbar = () => {
+const Navbar = ({ locale }: { locale: string }) => {
 
   const [open, setOpen] = useState(false);
   const [selectedTab, setSelectedTab] = useState<string | null>(null);
+  const c = useTranslations('commons');
+
+  const links = [
+    { url: "/" + locale + "/home", title: c('home') },
+    { url: "/" + locale + "/projects", title: c('projects') },
+    { url: "/" + locale + "/experience", title: c('experience') },
+    { url: "/" + locale + "/about", title: c('about') },
+  ];
 
   const topVariants = {
     closed: {

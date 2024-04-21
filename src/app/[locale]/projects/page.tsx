@@ -2,8 +2,10 @@
 
 import ProjectComponent from "@/components/ProjectComponent";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const ProjectsPage = () => {
+    const p = useTranslations('projects');
 
     return (
         <motion.div
@@ -14,8 +16,8 @@ const ProjectsPage = () => {
         >
             <main className="justify-center px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
                 <ProjectComponent
-                    title="Calculadora de Sistemas Lineares" 
-                    about="Uma calculadora que resolve sistemas lineares de n variaveis. O usuário pode inserir os coeficientes das equações e o programa retorna a solução do sistema."
+                    title={p('linear-system-title')} 
+                    about={p('linear-system-description')} 
                     image="/projects/linear-system-calc.png" 
                     repoLink="https://github.com/Vincius-dev/linear-systems-calc"
                     prodLink="https://linear-systems-calc.vercel.app/calc/linear-system"
@@ -23,8 +25,8 @@ const ProjectsPage = () => {
                 />
                 
                 <ProjectComponent 
-                    title="Projeto Gerenciador de festas de aniversários"
-                    about="Um projeto de gerenciamento de festas de aniversário. O usuário pode criar, editar e excluir festas, além de visualizar as festas já criadas."
+                    title={p('party-manager-title')} 
+                    about={p('party-manager-description')} 
                     image="/projects/imagem-exemplo.png" 
                     repoLink="https://github.com/Vincius-dev/linear-systems-calc"
                     prodLink="https://linear-systems-calc.vercel.app/calc/linear-system"

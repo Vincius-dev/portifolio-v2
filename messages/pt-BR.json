@@ -1,0 +1,37 @@
+{
+  "home": {
+    "text-1-p1": "Desenvolvedor Back-End ",
+    "text-1-p2": "- Java / Spring Boot",
+    "text-2-p1": "Sou um ",
+    "text-2-p2": "profissional completo",
+    "text-2-p3": ", além de back-end possuo conhecimentos em ",
+    "text-2-p4": "Front-End ",
+    "text-2-p5": "Redes ",
+    "text-2-p6": "e ",
+    "text-2-p7": "Devops",
+    "text-3": "Conheça meus projetos "
+  },
+  "commons": {
+    "home": "Início",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "about": "Sobre"
+  },
+  "projects": {
+    "repository-title": "Repositório de Projetos",
+    "project-execution-title": "Projeto de Execução",
+    "linear-system-title": "Calculadora de Sistemas Lineares",
+    "linear-system-description": "Uma calculadora que resolve sistemas lineares de n variaveis, utilizando o método de Gauss. O usuário pode inserir as equações e o programa retorna a solução do sistema.",
+    "party-manager-title": "Gerenciador de festas de aniversários",
+    "party-manager-description": "Um projeto de gerenciamento de festas de aniversário. O usuário pode criar, editar e excluir festas, além de visualizar as festas já criadas."
+  },
+  "about":{
+    "title": "Sobre:",
+    "text-1": "Meu nome é Vinícius e sou apaixonado por tecnologia, musica, jogos e o universo geek como um todo, com certa frequência acabo pegando um jogo ou um anime para assistir, um dos meus hobbies é traduzir alguns destes do inglês para o português gratuítamente, para permitir que outros leitores também consigam apreciar essas obras.",
+    "text-2": "Iníciei meus estudos na computação em meados de 2018, durante o primeiro ano do ensino médio, onde comecei a cursar o técnico de desenvolvimento de sistemas. Nessa época além das aulas do colégio, também comecei a acompanhar as aulas dos mestre Guanabara(canal no youtube Curso em Vídeo), já molhando a mão com python, html, css e js.",
+    "text-3": "Durante os anos fui apreendendo várias coisas. Logo que terminei o ensino médio, iniciei minha carreira profissional como analista de suporte e simultaneamente começei na faculdade de ciências da computação. O trabalho me ajudou a fixar vários conhecimentos de redes que eu já possuia, além de me ajudar muito a melhorar minha comunicação, pois tinha que lidar com diversos clientes diariamente, e eu sempre tive uma certa timides.",
+    "text-4": "Com o decorrer dos semestres trabalhando e estudando, comecei a procurar oportunidades para trabalhar na área de desenvolvimento e em 2023 inicei como desenvolvedor java junior, o que me ajudou a direcionar os meus estudos, e assim defini que seguiria no back-end com java e spring boot, nessa época já tinha um conhecimento geral sobre a área.",
+    "text-5": "Atualmente estou no 7° semestre de ciências da computação na Universidade São Judas Tadeu, onde adquiri conhecimentos técnicos referente aos processos da computação e do desenvolvimento como um todo, lógica, estruturas de dados, bancos de dados, IA e modelos de linguagem, javascript, nodejs, angular, python e java.",
+    "text-6": "E sigo estudando, iniciando novos projetos, as vezes dando continuidade em antigos, sempre evitando ficar estagnado."
+  }
+}
