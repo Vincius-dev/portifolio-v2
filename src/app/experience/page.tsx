@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const ContactPage = () => {
+const ExperiencePage = () => {
     return (
         <motion.div
             className="h-full"
@@ -15,4 +15,4 @@ const ContactPage = () => {
     )
 }
 
-export default ContactPage;
+export default ExperiencePage;

@@ -11,8 +11,8 @@ import { ThemeToggle } from "./ThemeToggle";
 const links = [
   { url: "/", title: "Home" },
   { url: "/projects", title: "Projects" },
-  { url: "/about", title: "About" },
   { url: "/experience", title: "Experience" },
+  { url: "/about", title: "About" },
 ];
 
 const Navbar = () => {
