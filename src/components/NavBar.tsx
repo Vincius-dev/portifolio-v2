@@ -8,6 +8,7 @@ import { useState } from "react";
 import NavLink from "./NavLink";
 import { ThemeToggle } from "./ThemeToggle";
 import { useTranslations } from "next-intl";
+import LanguageToggle from "./LanguageToggle";
 
 const Navbar = ({ locale }: { locale: string }) => {
 
@@ -133,6 +134,7 @@ const Navbar = ({ locale }: { locale: string }) => {
         </Link>
         <div className="ml-6"></div>
         <ThemeToggle />
+        <LanguageToggle />
       </div>
 
       {/* RESPONSIVE MENU */}
