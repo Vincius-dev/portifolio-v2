@@ -24,7 +24,7 @@ export default function Home() {
             <h3 className="m-4 text-left">Sou um <b className="underline dark:text-purple-600">profissional completo</b>, além de back-end<p></p> possuo conhecimentos em <b className="underline dark:text-purple-600">Front</b>, <b className="underline dark:text-purple-600">Redes</b> e <b className="underline dark:text-purple-600">Devops</b></h3>
             <h3 className="m-4 text-left">Conheça meus projetos <motion.div
               className="inline-block"
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 1.3 }}
               whileTap={{ scale: 0.9 }}
               transition={{ type: "spring", stiffness: 300 }}
               >

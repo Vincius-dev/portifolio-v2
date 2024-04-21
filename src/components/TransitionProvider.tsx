@@ -1,7 +1,7 @@
 "use client"
 
 
-import { AnimatePresence, delay, motion } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
 import Navbar from "./NavBar";
 import { usePathname } from "next/navigation";
 
@@ -18,7 +18,7 @@ const TransitionProvider = ({ children }: Readonly<{
                     className="w-screen h-screen fixed bg-black dark:bg-purple-700 rounded-b-[100px] z-40"
                     animate={{ height: "0vh" }}
                     exit={{ height: "140vh" }}
-                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
                 />
 
                 <motion.div
@@ -34,7 +34,8 @@ const TransitionProvider = ({ children }: Readonly<{
                 <motion.div
                     className="w-screen h-screen fixed dark:bg-purple-700 rounded-t-[100px] bottom-0 z-30"
                     initial={{ height: "140vh" }}
-                    animate={{ height:"0vh", transition: {delay:0.5}}}
+                    animate={{ height:"0vh"}}
+                    transition={{ duration: 0.8, delay:0.5, ease: "easeOut" }}
                 />
                 <div className="h-24">
                     <Navbar />

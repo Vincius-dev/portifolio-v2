@@ -97,28 +97,36 @@ const Navbar = () => {
                 layoutId="navlink"
                 transition={{ type: 'spring', bounce: 0.35, duration: 1 }}
               >
-                <NavLink link={link}  />
+                <NavLink link={link} />
               </motion.div>
             )}
           </div>
         ))}
       </div>
       <div className="md:hidden lg:flex xl:w-1/4 xl:justify-center">
-        <Link
-          href="/"
-          className="text-sm bg-black dark:bg-purple-700 rounded-xl p-2 font-semibold flex items-center justify-center"
+        <motion.div
+          className="inline-block"
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 300 }}
         >
-          <span className="text-white mr-1">Vinicius</span>
-          <span className="w-12 h-8 rounded-lg bg-white text-black dark:bg-black dark:text-white flex items-center justify-center">dev</span>
-        </Link>
+          <Link
+            href="/"
+            className="text-sm bg-black dark:bg-purple-700 rounded-xl p-2 font-semibold flex items-center justify-center"
+          >
+            <span className="text-white mr-1">Vinicius</span>
+            <span className="w-12 h-8 rounded-lg bg-white text-black dark:bg-black dark:text-white flex items-center justify-center">dev</span>
+          </Link>
+        </motion.div>
+
       </div>
 
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/4">
-        <Link href="#">
-          <Image src="/github.png" alt="" className="bg-white rounded-xl" width={24} height={24} />
+        <Link href="https://github.com/Vincius-dev">
+          <Image src="/github.png"  alt="" className="bg-white rounded-xl" width={24} height={24} />
         </Link>
-        <Link href="#">
+        <Link href="https://www.linkedin.com/in/vin%C3%ADcius-gabriel-8336321b6/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
         <div className="ml-6"></div>
@@ -126,7 +134,11 @@ const Navbar = () => {
       </div>
 
       {/* RESPONSIVE MENU */}
-      <div className="md:hidden">
+      <div className="md:hidden inline-flex">
+        <div className="mr-10">
+          <ThemeToggle  />
+        </div>
+
         <button
           className="w-10 h-8 flex flex-col justify-between z-50 relative"
           onClick={() => { setOpen(!open) }}
@@ -134,17 +146,17 @@ const Navbar = () => {
           <motion.div
             variants={topVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-black rounded origin-left"
+            className="w-10 h-1 bg-black dark:bg-purple-700 rounded origin-left"
           ></motion.div>
           <motion.div
             variants={centerVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-black rounded"
+            className="w-10 h-1 bg-black dark:bg-purple-700 rounded"
           ></motion.div>
           <motion.div
             variants={bottomVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-black rounded origin-left"
+            className="w-10 h-1 bg-black dark:bg-purple-700 rounded origin-left"
           ></motion.div>
         </button>
 
@@ -154,7 +166,7 @@ const Navbar = () => {
               variants={listVariants}
               initial="closed"
               animate="opened"
-              className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40"
+              className="absolute top-0 left-0 w-screen h-screen bg-black dark:bg-purple-700 text-white flex flex-col items-center justify-center gap-8 text-4xl z-40"
             >
               {links.map((link) => (
                 <motion.div
