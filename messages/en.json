@@ -38,5 +38,11 @@
     "light": "Light",
     "dark": "Dark",
     "system": "System"
+  },
+  "experience":{
+    "certification": "Certification",
+    "job": "Job",
+    "course": "Course",
+    "current": "Current"
   }
 }
