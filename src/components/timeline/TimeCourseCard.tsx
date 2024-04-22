@@ -16,7 +16,7 @@ const TimeCourseCard: React.FC<CardProps> = ({ title, subtitle, icon, year, desc
     const e = useTranslations('experience');
 
     return (
-        <li className=" mb-10 w-4/6 p-3 rounded-e-2xl bg-red-300 dark:bg-pink-700">
+        <li className=" mb-10 w-5/6 sm:w-5/6 md:w-4/6 lg:w-4/6 p-3 rounded-e-2xl bg-red-300 dark:bg-pink-700">
             <span className="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -start-5 ring-8 ring-red-500 dark:ring-pink-800 dark:bg-purple-300">
                 <Image src={icon} alt="tech-image" width={64} height={64} />
                 <p className="absolute text-md mr-96 sm:mr-28 md:mr-28 lg:mr-28 font-semibold text-white bg-red-500 dark:text-white dark:bg-pink-700 rounded-xl p-2">{year}</p>

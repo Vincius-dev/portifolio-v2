@@ -13,8 +13,8 @@ const ExperiencePage = () => {
     return (
         <motion.div
             className="h-full"
-            initial={{ y: "-200vh" }}
-            animate={{ y: "0%" }}
+            initial={{ x: "-200vw" }}
+            animate={{ x: "0%" }}
             transition={{ duration: 1 }}
         >
             <main className=" mt-10 px-4 pb-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
