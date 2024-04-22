@@ -14,3 +14,6 @@ Projeto Portifolio - V2
 - Next
 - Tailwind CSS
 - MongoDb
+
+## Fontes
+Icones em icons8: https://icons8.com.br/
