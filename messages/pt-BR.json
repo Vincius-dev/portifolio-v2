@@ -42,7 +42,20 @@
   "experience":{
     "certification": "Certificação",
     "job": "Trabalho",
+    "university": "Faculdade",
     "course": "Curso",
-    "current": "Atual"
+    "current": "Trabalho Atual",
+    "university-1-title": "Bacharelado em Ciências da Computação",
+    "university-1-subtitle": "Universidade São Judas Tadeu - 2020 - 2024",
+    "university-1-description": "Bacharelado em Ciências da Computação, onde estudei a computação como um todo, programação com java, node, angular, python, estruturas de dados, lógica, IA, modelos de linguagem, redes, banco de dados, entre outros.",
+    "job-1-title": "Desenvolvedor Java Jr",
+    "job-1-subtitle": "JGM Empresarial - Maio 2023 - Atual",
+    "job-1-description": "Desenvolvimento de novas aplicações Java. Manutenção e suporte a aplicações existentes, geralmente uso de bancos de dado SQL, desenvolvimento de interfaces com SWING, automações web e Web Scraping com Selenium, entre outras atividades. Tenho de comunicação direta com os usuários finais, sempre tendo o foco em identificar e solucionar os problemas de acordo com a regra de negócio dos processos e necessidades dos usuários.",
+    "job-2-title": "Analista de Suporte",
+    "job-2-subtitle": "G-InfoWork TI - Set 2021 - Maio 2023",
+    "job-2-description": "Atuei como um analista de suporte. Dentre algumas de minhas responsabilidades estavam, controle de Backups com Veeam, cobian e outros, gerenciamento de rede com Windows Server e suas ferramentas, Firewall e VPN com PFSENSE, implantação do sistema de monitoramento Zabbix, além de suporte técnico abrangente (N1 a N3) para clientes de diferentes setores e tamanhos.",
+    "course-1-title": "Curso Desenvolvimento de Sistemas e TI",
+    "course-1-subtitle": "Colégio Anchieta - 2018 - 2020",
+    "course-1-description": "Aqui foi onde iniciei meus estudos na área de TI, onde tive contato com as primeiras linguagens de programação, como python, html, css e js, além de ter uma base de redes e sistemas operacionais."
   }
 }

@@ -11,7 +11,7 @@ interface CardProps {
     description: string;
 }
 
-const TimeCertCard: React.FC<CardProps> = ({ title, subtitle, icon, year, description }) => {
+const TimeUniversityCard: React.FC<CardProps> = ({ title, subtitle, icon, year, description }) => {
 
     const e = useTranslations('experience');
 
@@ -28,7 +28,7 @@ const TimeCertCard: React.FC<CardProps> = ({ title, subtitle, icon, year, descri
                 </span>
                 <div className="relative flex justify-between items-end">
                     <span className=" text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-indigo-600 text-white dark:bg-indigo-700 dark:text-white ms-3">
-                        {e('certification')}
+                        {e('university')}
                     </span>
                 </div>
             </div>
@@ -43,4 +43,4 @@ const TimeCertCard: React.FC<CardProps> = ({ title, subtitle, icon, year, descri
     )
 }
 
-export default TimeCertCard;
+export default TimeUniversityCard;

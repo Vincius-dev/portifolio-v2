@@ -9,10 +9,9 @@ interface CardProps {
     icon: string;
     year: string;
     description: string;
-    isFirst: boolean;
 }
 
-const TimeCourseCard: React.FC<CardProps> = ({ title, subtitle, icon, year, description, isFirst }) => {
+const TimeCourseCard: React.FC<CardProps> = ({ title, subtitle, icon, year, description }) => {
 
     const e = useTranslations('experience');
 
@@ -26,11 +25,6 @@ const TimeCourseCard: React.FC<CardProps> = ({ title, subtitle, icon, year, desc
                 <div className="flex justify-between items-center w-full">
                     <span>
                         {title}
-                        {isFirst && (
-                            <span className=" text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-red-500 text-white dark:bg-pink-700 dark:text-white ms-3">
-                                {e('current')}
-                            </span>
-                        )}
                     </span>
                     <div className="relative flex justify-between items-end">
                         <span className="text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-red-500 text-white dark:bg-pink-700 dark:text-white ms-3">

@@ -3,9 +3,12 @@
 import TimeCertCard from "@/components/timeline/TimeCertCard";
 import TimeCourseCard from "@/components/timeline/TimeCourseCard";
 import TimeJobCard from "@/components/timeline/TimeJobCard";
+import TimeUniversityCard from "@/components/timeline/TimeUniversityCard";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const ExperiencePage = () => {
+    const e = useTranslations("experience")
     
     return (
         <motion.div
@@ -19,32 +22,32 @@ const ExperiencePage = () => {
                     <li>
                         <p className="p-4"> </p>
                     </li>
+                    
+                    <motion.div
+                        initial={{ opacity: 0, x: "-100vw" }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1, delay: 1 }}
+                    >
+                        <TimeUniversityCard
+                            title={e("university-1-title")}
+                            subtitle={e("university-1-subtitle")}
+                            icon="/icons/degree.png"
+                            year="2024"
+                            description={e("university-1-description")}
+                        />
+                    </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: "-100vw" }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, delay: 1 }}
                     >
                         <TimeJobCard
-                            title="Java Developer - Jr"
-                            subtitle="JGM Empresarial - 2024"
+                            title={e("job-1-title")}
+                            subtitle={e("job-1-subtitle")}
                             icon="/icons/java.png"
                             year="2024"
-                            description="Certificação de especialista em Azure, com foco em desenvolvimento de aplicações e integrações."
+                            description={e("job-1-description")}
                             isFirst={true}
-                        />
-                    </motion.div>
-                    <motion.div
-                        initial={{ opacity: 0, x: "-100vw" }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 1, delay: 1.2 }}
-                    >
-                        <TimeCertCard
-                            title="Azure Expert XXX"
-                            subtitle="Azure - 2024"
-                            icon="/icons/azure.png"
-                            year="2024"
-                            description="Certificação de especialista em Azure, com foco em desenvolvimento de aplicações e integrações."
-                            isFirst={false}
                         />
                     </motion.div>
                     <motion.div
@@ -53,11 +56,11 @@ const ExperiencePage = () => {
                         transition={{ duration: 1, delay: 1.4 }}
                     >
                         <TimeJobCard
-                            title="Java Developer - Jr"
-                            subtitle="JGM Empresarial - 2024"
-                            icon="/icons/java.png"
-                            year="2024"
-                            description="Certificação de especialista em Azure, com foco em desenvolvimento de aplicações e integrações."
+                            title={e("job-2-title")}
+                            subtitle={e("job-2-subtitle")}
+                            icon="/icons/linux.png"
+                            year="2023"
+                            description={e("job-2-description")}
                             isFirst={false}
                         />
                     </motion.div>
@@ -67,12 +70,11 @@ const ExperiencePage = () => {
                         transition={{ duration: 1, delay: 1.6 }}
                     >
                         <TimeCourseCard
-                            title="Azure Expert XXX"
-                            subtitle="Azure - 2024"
-                            icon="/icons/azure.png"
-                            year="2024"
-                            description="Certificação de especialista em Azure, com foco em desenvolvimento de aplicações e integrações."
-                            isFirst={false}
+                            title={e("course-1-title")}
+                            subtitle={e("course-1-subtitle")}
+                            icon="/icons/networks.png"
+                            year="2020"
+                            description={e("course-1-description")}
                         />
                     </motion.div>
                     <li>

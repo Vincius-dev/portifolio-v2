@@ -22,12 +22,12 @@ export default function LanguageToggle() {
       <p className='sr-only'>change language</p>
       <select
         defaultValue={localActive}
-        className='bg-transparent w-full'
+        className=' bg-transparent dark:bg-black dark:text-white  w-full'
         onChange={onSelectChange}
         disabled={isPending}
       >
-        <option value='en'>English</option>
-        <option value='pt-BR'>PT-BR</option>
+        <option className='bg-black text-white' value='en'>English</option>
+        <option className='bg-black text-white' value='pt-BR'>Português</option>
       </select>
     </label>
   );

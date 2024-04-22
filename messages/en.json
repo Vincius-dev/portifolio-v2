@@ -43,6 +43,19 @@
     "certification": "Certification",
     "job": "Job",
     "course": "Course",
-    "current": "Current"
+    "current": "Current Job",
+    "university": "University",
+    "university-1-title": "Computer Science Bachelor",
+    "university-1-subtitle": "São Judas Tadeu University - 2020 - 2024",
+    "university-1-description": "Bachelor's degree in computer science, i studied computer science comprehensively, covering programming with Java, Node.js, Angular, Python, data structures, logic, AI, language models, networks, databases, among others.",
+    "job-1-title": "Jr Java Developer",
+    "job-1-subtitle": "JGM Empresarial - May 2023 - Present",
+    "job-1-description": "Development of new Java applications. Maintenance and support of existing applications, often involving the use of SQL databases, development of interfaces with SWING, web automation, and Web Scraping with Selenium, among other activities. I have direct communication with end users, always focusing on identifying and solving problems according to the business rules of processes and user needs.",
+    "job-2-title": "Support Analyst",
+    "job-2-subtitle": "G-InfoWork IT - Sep 2021 - May 2023",
+    "job-2-description": "I worked as a support analyst. Among some of my responsibilities were backup management with Veeam, Cobian, and others, network management with Windows Server and its tools, Firewall and VPN with PFSENSE, deployment of the Zabbix monitoring system, as well as comprehensive technical support (N1 to N3) for clients from different sectors and sizes.",
+    "course-1-title": "Systems Development and IT Associate Degreee",
+    "course-1-subtitle": "Anchieta School - 2018 - 2020",
+    "course-1-description": "This is where I began my studies in the IT field, where I was introduced to the first programming languages such as Python, HTML, CSS, and JavaScript, as well as gaining a foundation in networking and operating systems."
   }
 }
