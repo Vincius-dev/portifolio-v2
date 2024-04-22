@@ -24,7 +24,7 @@ const TransitionProvider: React.FC<TransitionProviderProps> = ({ children, local
                     className="w-screen h-screen fixed bg-black dark:bg-purple-700 rounded-b-[100px] z-30"
                     animate={{ height: "0vh" }}
                     exit={{ height: "140vh" }}
-                    transition={{ duration: 1, ease: "easeOut" }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
                 />
 
                 <motion.div
