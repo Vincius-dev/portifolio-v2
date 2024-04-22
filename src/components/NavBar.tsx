@@ -132,6 +132,9 @@ const Navbar = ({ locale }: { locale: string }) => {
         <Link href="https://www.linkedin.com/in/vin%C3%ADcius-gabriel-8336321b6/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
+        <Link href="mailto:vinicius.fariascontato@gmail.com">
+          <Image src="/email.png" alt="" width={24} height={24} />
+        </Link>
         <div className="ml-6"></div>
         <ThemeToggle />
         <LanguageToggle />

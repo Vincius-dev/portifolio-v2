@@ -1,6 +1,7 @@
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import TransitionProvider from "@/components/TransitionProvider";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import FloatingButton from "@/components/FloatingButton";
 
 export default function LocaleLayout({
     children,

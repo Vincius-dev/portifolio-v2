@@ -18,8 +18,8 @@
     "about": "Sobre"
   },
   "projects": {
-    "repository-title": "Repositório de Projetos",
-    "project-execution-title": "Projeto de Execução",
+    "repository-title": "Github do Projeto",
+    "project-execution-title": "Site ou Documentação da API",
     "linear-system-title": "Calculadora de Sistemas Lineares",
     "linear-system-description": "Uma calculadora que resolve sistemas lineares de n variaveis, utilizando o método de Gauss. O usuário pode inserir as equações e o programa retorna a solução do sistema.",
     "party-manager-title": "Gerenciador de festas de aniversários",

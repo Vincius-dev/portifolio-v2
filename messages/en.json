@@ -18,8 +18,8 @@
     "about": "About"
   },
   "projects": {
-    "repository-title": "Project Repository",
-    "project-execution-title": "Project in Execution",
+    "repository-title": "Project in Github",
+    "project-execution-title": "Website or API Documentation",
     "linear-system-title": "Linear Systems Calculator",
     "linear-system-description": "A calculator that solves linear systems with n variables using the Gauss method. The user can input the equations and the program returns the solution of the system.",
     "party-manager-title": "Birthday Party Manager",

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Reveal } from "./Reveal";
 import { useTranslations } from "next-intl";
+import { Button } from "./ui/button";
 
 interface ProjectProps {
     image: string;
@@ -31,15 +32,15 @@ const ProjectComponent: React.FC<ProjectProps> = ({ image, title, repoLink, prod
                 </div>
                 <div className="lg:w-2/4 md:w-2/4 sm:w-3/4 p-4 sm:text-sm rounded-l-3xl sm:rounded-l-none md:rounded-l-none lg:rounded-l-none  rounded-r-3xl  bg-slate-600 dark:black text-white">
                     <Reveal>
-                        <p className="mt-4 text-blue-500 dark:text-purple-600 hover:underline"><Link href={repoLink}> {p('repository-title')} </Link></p>
+                        <Link href={repoLink}> <Button className="mt-4 text-white text-lg dark:text-white dark:bg-purple-700 rounded-xl p-2 hover:underline"> {p('repository-title')} </Button></Link>
                     </Reveal>
                     <Reveal>
-                        <p className="mt-4 text-blue-500 dark:text-purple-600 hover:underline"><Link href={prodLink}> {p('project-execution-title')} </Link></p>
+                        <Link href={prodLink}> <Button className="mt-4 text-white text-lg dark:text-white dark:bg-purple-700 rounded-xl p-2 hover:underline"> {p('project-execution-title')}  </Button></Link>
                     </Reveal>
                     <Reveal>
                         <p className="mt-4">{about}</p>
                     </Reveal>
-                    <div className="mt-2 inline-flex">
+                    <div className="mt-2 inline-flex bottom">
                         {technologies.map(tech =>
                             <Image key={tech} src={tech} alt="tech-image" width={44} height={44} />
                         )}
