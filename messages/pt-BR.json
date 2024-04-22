@@ -33,5 +33,10 @@
     "text-4": "Com o decorrer dos semestres trabalhando e estudando, comecei a procurar oportunidades para trabalhar na área de desenvolvimento e em 2023 inicei como desenvolvedor java junior, o que me ajudou a direcionar os meus estudos, e assim defini que seguiria no back-end com java e spring boot, nessa época já tinha um conhecimento geral sobre a área.",
     "text-5": "Atualmente estou no 7° semestre de ciências da computação na Universidade São Judas Tadeu, onde adquiri conhecimentos técnicos referente aos processos da computação e do desenvolvimento como um todo, lógica, estruturas de dados, bancos de dados, IA e modelos de linguagem, javascript, nodejs, angular, python e java.",
     "text-6": "E sigo estudando, iniciando novos projetos, as vezes dando continuidade em antigos, sempre evitando ficar estagnado."
+  },
+  "theme":{
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
   }
 }
