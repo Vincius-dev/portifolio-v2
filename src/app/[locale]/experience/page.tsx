@@ -22,7 +22,19 @@ const ExperiencePage = () => {
                     <li>
                         <p className="p-4"> </p>
                     </li>
-                    
+                    <motion.div
+                        initial={{ opacity: 0, x: "-100vw" }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1, delay: 1 }}
+                    >
+                        <TimeCertCard
+                            title={e("cert-1-title")}
+                            subtitle={e("cert-1-subtitle")}
+                            icon="/icons/efset.png"
+                            year="2024"
+                            description={e("cert-1-description")}
+                        />
+                    </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: "-100vw" }}
                         animate={{ opacity: 1, x: 0 }}
@@ -45,7 +57,7 @@ const ExperiencePage = () => {
                             title={e("job-1-title")}
                             subtitle={e("job-1-subtitle")}
                             icon="/icons/java.png"
-                            year="2024"
+                            year="2023"
                             description={e("job-1-description")}
                             isFirst={true}
                         />
@@ -59,7 +71,7 @@ const ExperiencePage = () => {
                             title={e("job-2-title")}
                             subtitle={e("job-2-subtitle")}
                             icon="/icons/linux.png"
-                            year="2023"
+                            year="2021"
                             description={e("job-2-description")}
                             isFirst={false}
                         />

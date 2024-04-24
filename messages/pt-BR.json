@@ -39,7 +39,7 @@
   },
   "about":{
     "title": "Sobre:",
-    "text-1": "Meu nome é Vinícius e sou apaixonado por tecnologia, musica, jogos e o universo geek como um todo, com certa frequência acabo pegando um jogo ou um anime para assistir, um dos meus hobbies é traduzir alguns destes do inglês para o português gratuítamente, para permitir que outros leitores também consigam apreciar essas obras.",
+    "text-1": "Meu nome é Vinícius e sou apaixonado por tecnologia, musica, jogos e o universo geek como um todo, com certa frequência acabo pegando um jogo ou um anime para assistir, um dos meus hobbies é traduzir livros destes do inglês para o português gratuítamente, para permitir que outros leitores também consigam apreciar esses trabalhos.",
     "text-2": "Iníciei meus estudos na computação em meados de 2018, durante o primeiro ano do ensino médio, onde comecei a cursar o técnico de desenvolvimento de sistemas. Nessa época além das aulas do colégio, também comecei a acompanhar as aulas dos mestre Guanabara(canal no youtube Curso em Vídeo), já molhando a mão com python, html, css e js.",
     "text-3": "Durante os anos fui apreendendo várias coisas. Logo que terminei o ensino médio, iniciei minha carreira profissional como analista de suporte e simultaneamente começei na faculdade de ciências da computação. O trabalho me ajudou a fixar vários conhecimentos de redes que eu já possuia, além de me ajudar muito a melhorar minha comunicação, pois tinha que lidar com diversos clientes diariamente, e eu sempre tive uma certa timides.",
     "text-4": "Com o decorrer dos semestres trabalhando e estudando, comecei a procurar oportunidades para trabalhar na área de desenvolvimento e em 2023 inicei como desenvolvedor java junior, o que me ajudou a direcionar os meus estudos, e assim defini que seguiria no back-end com java e spring boot, nessa época já tinha um conhecimento geral sobre a área.",
@@ -57,6 +57,9 @@
     "university": "Faculdade",
     "course": "Curso",
     "current": "Trabalho Atual",
+    "cert-1-title": "EF SET - C2 Proficient",
+    "cert-1-subtitle": "Cerfiticação de inglês - Abril, 2024",
+    "cert-1-description": "Certificação de inglês que segue os mesmos padrões da TOEFL e IELTS, alcancei o nível de C2 Proficient com 72 pontos, onde fui avaliado em leitura e escuta.",
     "university-1-title": "Bacharelado em Ciências da Computação",
     "university-1-subtitle": "Universidade São Judas Tadeu - 2020 - 2024",
     "university-1-description": "Bacharelado em Ciências da Computação, onde estudei a computação como um todo, programação com java, node, angular, python, estruturas de dados, lógica, IA, modelos de linguagem, redes, banco de dados, entre outros.",
@@ -66,7 +69,7 @@
     "job-2-title": "Analista de Suporte",
     "job-2-subtitle": "G-InfoWork TI - Set 2021 - Maio 2023",
     "job-2-description": "Atuei como um analista de suporte. Dentre algumas de minhas responsabilidades estavam, controle de Backups com Veeam, cobian e outros, gerenciamento de rede com Windows Server e suas ferramentas, Firewall e VPN com PFSENSE, implantação do sistema de monitoramento Zabbix, além de suporte técnico abrangente (N1 a N3) para clientes de diferentes setores e tamanhos.",
-    "course-1-title": "Curso Desenvolvimento de Sistemas e TI",
+    "course-1-title": "Curso Técnico de Desenvolvimento de Sistemas e TI",
     "course-1-subtitle": "Colégio Anchieta - 2018 - 2020",
     "course-1-description": "Aqui foi onde iniciei meus estudos na área de TI, onde tive contato com as primeiras linguagens de programação, como python, html, css e js, além de ter uma base de redes e sistemas operacionais."
   }

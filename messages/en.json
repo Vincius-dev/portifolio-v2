@@ -39,7 +39,7 @@
   },
   "about":{
     "title": "About:",
-    "text-1": "My name is Vinícius and I am passionate about technology, music, games, and the geek universe as a whole. Quite often, I find myself picking up a game or an anime to watch. One of my hobbies is translating some of these from English to Portuguese for free, to allow other readers to also appreciate these works.",
+    "text-1": "My name is Vinícius and I am passionate about technology, music, games, and the geek universe as a whole. Quite often, I find myself picking up a game or an anime to watch. One of my hobbies is translating some novels of these from English to Portuguese for free, to allow other readers to also appreciate these works.",
     "text-2": "I started my studies in computing around 2018, during the first year of high school, where I began studying systems development. During this time, in addition to school classes, I also started following the lessons of Master Guanabara (YouTube channel: Curso em Vídeo), getting my hands dirty with Python, HTML, CSS, and JS.",
     "text-3": "Over the years, I have learned many things. As soon as I finished high school, I started my professional career as a support analyst and simultaneously began studying computer science at college. Work helped me solidify various networking knowledge I already had, as well as greatly improving my communication skills, as I had to deal with various clients daily, and I have always been somewhat shy.",
     "text-4": "As semesters went by, working and studying, I began looking for opportunities to work in development and in 2023, I started as a junior Java developer, which helped me direct my studies, and thus, I decided to focus on backend with Java and Spring Boot. By this time, I already had a general knowledge of the area.",
@@ -57,6 +57,9 @@
     "course": "Course",
     "current": "Current Job",
     "university": "University",
+    "cert-1-title": "EF SET - C2 Proficient",
+    "cert-1-subtitle": "English Certification - April, 2024",
+    "cert-1-description": "English certification following the same standards as TOEFL and IELTS. I achieved the C2 Proficient level with 72 points, where I was assessed in reading and listening.",
     "university-1-title": "Computer Science Bachelor",
     "university-1-subtitle": "São Judas Tadeu University - 2020 - 2024",
     "university-1-description": "Bachelor's degree in computer science, i studied computer science comprehensively, covering programming with Java, Node.js, Angular, Python, data structures, logic, AI, language models, networks, databases, among others.",
