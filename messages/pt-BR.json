@@ -1,15 +1,142 @@
 {
   "home": {
-    "text-1-p1": "Desenvolvedor Back-End ",
-    "text-1-p2": "- Java / Spring Boot",
-    "text-2-p1": "Sou um ",
-    "text-2-p2": "profissional completo",
-    "text-2-p3": ", além de back-end possuo conhecimentos em ",
-    "text-2-p4": "Front-End ",
-    "text-2-p5": "Redes ",
-    "text-2-p6": "e ",
-    "text-2-p7": "Devops",
-    "text-3": "Conheça meus projetos "
+    "eyebrow": "Java · Spring Boot · Sistemas financeiros",
+    "title": "Software que conecta regras de negócio a soluções reais.",
+    "description": "Sou Vinícius Gabriel, desenvolvedor back-end com experiência em sistemas financeiros e contábeis. Trabalho com APIs, integrações e regras de fundos de investimento — e exploro produtos próprios da interface à implantação.",
+    "projects": "Explorar projetos",
+    "experience": "Minha experiência",
+    "portrait": "Foto de perfil de Vinícius Gabriel",
+    "focus": "Back-end Java, com visão do produto inteiro."
+  },
+  "about": {
+    "title": "Como eu trabalho",
+    "intro": "Meu foco é desenvolver software que faça sentido para quem usa e para o negócio que ele atende.",
+    "paragraphs": [
+      "Atuo com Java e Spring Boot na evolução de sistemas financeiros. Minha experiência passa por ativo e passivo de fundos de investimento, APIs REST, integrações e sustentação após implantação.",
+      "Antes disso, desenvolvi sistemas para a área contábil e trabalhei com suporte e infraestrutura. O contato direto com usuários trouxe uma perspectiva que levo para o desenvolvimento: entender o problema e as regras antes de definir a solução.",
+      "Nos projetos próprios, exploro modelagem de domínio, autenticação, testes, interfaces web, aplicativos móveis e operação em containers. Utilizo IA como ferramenta de desenvolvimento e sigo aprofundando minha análise das regras, revisão das soluções e validação do comportamento."
+    ],
+    "skillsTitle": "Áreas de atuação",
+    "skills": [
+      "Java e Spring Boot",
+      "APIs REST e integrações",
+      "Fundos de investimento",
+      "SQL e modelagem de dados",
+      "Testes e investigação de falhas",
+      "Docker e entrega de aplicações"
+    ]
+  },
+  "projects": {
+    "title": "Projetos selecionados",
+    "intro": "Produtos próprios para problemas de finanças e aprendizagem, com aplicações web, integrações e infraestrutura de entrega.",
+    "ai": "Desenvolvidos com assistência intensiva de IA. As descrições destacam o escopo implementado; cada produto segue evoluindo.",
+    "visit": "Visitar aplicação",
+    "repo": "Repositório",
+    "details": "Destaques técnicos",
+    "items": {
+      "anti": {
+        "title": "Anti-Arrombo",
+        "category": "Finanças pessoais",
+        "description": "Organização financeira com importação revisável de extratos, recorrências, cartões e OCR de comprovantes. Interface web e ferramentas MCP para integração com clientes de IA.",
+        "detail": "Idempotência transacional, portas e adaptadores, testes de arquitetura e serviço OCR separado."
+      },
+      "astra": {
+        "title": "Astra",
+        "category": "Organização de estudos",
+        "description": "Mapas de estudo em forma de constelações. Pré-requisitos, sessões de estudo e sugestões de próximos tópicos ajudam a visualizar o caminho de aprendizagem.",
+        "detail": "Validação de grafos, importação YAML, progresso hierárquico e visualização WebGL."
+      },
+      "engrama": {
+        "title": "Engrama",
+        "category": "Aprendizagem e revisão",
+        "description": "Carteira de conhecimentos com prática, evidências de aprendizagem e revisão espaçada. Combina interface web, aplicativo Android e integração MCP.",
+        "detail": "Adaptador FSRS e sincronização de respostas offline com confirmação e isolamento por conta."
+      },
+      "infra": {
+        "title": "Subarashii Infra",
+        "category": "Infraestrutura compartilhada",
+        "description": "Configuração de hospedagem e operação dos produtos: roteamento HTTPS, identidade, bancos de dados, observabilidade e rotinas de backup.",
+        "detail": "Containers, Traefik, Keycloak, segredos cifrados com SOPS e configuração versionada de entrega."
+      }
+    },
+    "archiveTitle": "Projetos anteriores",
+    "archiveIntro": "Experimentos, trabalhos acadêmicos e versões anteriores do portfólio que fazem parte da minha trajetória.",
+    "demo": "Demonstração ou aplicação",
+    "archive": {
+      "linear-system": {
+        "title": "Calculadora de Sistemas Lineares",
+        "description": "Uma calculadora que resolve sistemas lineares de n variaveis, utilizando o método de Gauss. O usuário pode inserir as equações e o programa retorna a solução do sistema."
+      },
+      "bot-notification": {
+        "title": "Bot Notification Discord",
+        "description": "Um bot que realiza webscraping em um site de light novels e realiza anuncios no discord de acordo com as novas publicações."
+      },
+      "uno-java": {
+        "title": "Uno em Java com interface de terminal",
+        "description": "Implementação de UNO em Java com interface de terminal, explorando orientação a objetos e regras de jogo."
+      },
+      "portifolio-v2": {
+        "title": "Portifólio V2",
+        "description": "Este portfólio: site bilíngue em Next.js, React e TypeScript, com temas claro e escuro."
+      },
+      "portifolio-v1": {
+        "title": "Portifólio V1",
+        "description": "Primeira versão do meu portifólio, feito com HTML, CSS, JS e React. O site possui uma página inicial, uma página de projetos, uma página de experiência e uma página sobre."
+      },
+      "corona-vapo": {
+        "title": "Corona Vapo",
+        "description": "Um jogo desenvolvido na Godot, voltado a concientização do distanciamento do covid-19, o jogador enfrenta diversas pessoas infectadas que são zumbis e recebe diversas mensagens referentes as medidas indicadas"
+      },
+      "medplus": {
+        "title": "MedPlus",
+        "description": "Um projeto de gerenciamento de consultas médicas. O usuário pode criar, editar e excluir consultas, além de visualizar as consultas já criadas."
+      },
+      "party-manager": {
+        "title": "Gerenciador de festas de aniversários",
+        "description": "Um projeto de gerenciamento de festas de aniversário. O usuário pode criar, editar e excluir festas, além de visualizar as festas já criadas."
+      }
+    }
+  },
+  "experience": {
+    "title": "Experiência profissional",
+    "intro": "Da infraestrutura ao desenvolvimento de sistemas financeiros, com foco em entender regras de negócio e entregar software utilizável.",
+    "jobs": [
+      {
+        "company": "Sinqia",
+        "role": "Desenvolvedor Java",
+        "period": "Julho de 2024 — atual",
+        "summary": "Desenvolvimento e sustentação de backoffice de fundos de investimento.",
+        "highlights": [
+          "Atuação em funcionalidades de ativo e passivo, customizações e integrações para instituições financeiras.",
+          "Participação em equipe de três desenvolvedores na adequação ao CNPJ alfanumérico, com responsabilidade pelas alterações nos endpoints do sistema e apoio às integrações.",
+          "Evolução do fluxo operacional de FIDC em colaboração direta com a Product Owner.",
+          "Alterações em rotinas de cálculo e investigação de defeitos após implantação."
+        ],
+        "stack": "Java · Spring Boot · SQL Server · Oracle · RabbitMQ · Jenkins"
+      },
+      {
+        "company": "JGM Empresarial",
+        "role": "Desenvolvedor Java",
+        "period": "Abril de 2023 — julho de 2024",
+        "summary": "Desenvolvimento e manutenção de aplicações para a área contábil.",
+        "highlights": [
+          "Implementação de regras contábeis e fiscais, com comunicação direta com usuários finais.",
+          "Aplicações Spring Boot, interfaces Swing e automações web com Selenium."
+        ],
+        "stack": "Java · Spring Boot · SQL Server · MySQL · Selenium"
+      },
+      {
+        "company": "G-InfoWork TI",
+        "role": "Analista de Suporte",
+        "period": "Setembro de 2021 — abril de 2023",
+        "summary": "Suporte N1 a N3 e administração de infraestrutura para diferentes clientes.",
+        "highlights": [
+          "Redes, Windows Server, firewall e VPN com pfSense.",
+          "Backups com Veeam/Cobian e implantação de monitoramento Zabbix."
+        ],
+        "stack": "Windows Server · Redes · pfSense · Zabbix · Backups"
+      }
+    ]
   },
   "commons": {
     "home": "Início",
@@ -17,60 +144,9 @@
     "experience": "Experiência",
     "about": "Sobre"
   },
-  "projects": {
-    "repository-title": "Github do Projeto",
-    "project-execution-title": "Site ou Documentação da API",
-    "bot-notification-title":"Bot Notification Discord",
-    "bot-notification-description":"Um bot que realiza webscraping em um site de light novels e realiza anuncios no discord de acordo com as novas publicações.",
-    "uno-java-title": "Uno em Java com interface de terminal",
-    "uno-java-description": "Um jogo de uno feito em java, com interface de terminal. O jogo possui todas as regras do uno original, além de permitir que o usuário jogue contra a máquina.",
-    "medplus-title": "MedPlus",
-    "medplus-description": "Um projeto de gerenciamento de consultas médicas. O usuário pode criar, editar e excluir consultas, além de visualizar as consultas já criadas.",
-    "portifolio-v1-title": "Portifólio V1",
-    "portifolio-v1-description": "Primeira versão do meu portifólio, feito com HTML, CSS, JS e React. O site possui uma página inicial, uma página de projetos, uma página de experiência e uma página sobre.",
-    "portifolio-v2-title": "Portifólio V2",
-    "portifolio-v2-description": "Segunda versão do meu portifólio, feito com NEXT, TS, Tailwind e Framer Motion.",
-    "corona-vapo-title": "Corona Vapo",
-    "corona-vapo-description": "Um jogo desenvolvido na Godot, voltado a concientização do distanciamento do covid-19, o jogador enfrenta diversas pessoas infectadas que são zumbis e recebe diversas mensagens referentes as medidas indicadas",
-    "linear-system-title": "Calculadora de Sistemas Lineares",
-    "linear-system-description": "Uma calculadora que resolve sistemas lineares de n variaveis, utilizando o método de Gauss. O usuário pode inserir as equações e o programa retorna a solução do sistema.",
-    "party-manager-title": "Gerenciador de festas de aniversários",
-    "party-manager-description": "Um projeto de gerenciamento de festas de aniversário. O usuário pode criar, editar e excluir festas, além de visualizar as festas já criadas."
-  },
-  "about":{
-    "title": "Sobre:",
-    "text-1": "Meu nome é Vinícius e sou apaixonado por tecnologia, musica, jogos e o universo geek como um todo, com certa frequência acabo pegando um jogo ou um anime para assistir, um dos meus hobbies é traduzir livros destes do inglês para o português gratuítamente, para permitir que outros leitores também consigam apreciar esses trabalhos.",
-    "text-2": "Iníciei meus estudos na computação em meados de 2018, durante o primeiro ano do ensino médio, onde comecei a cursar o técnico de desenvolvimento de sistemas. Nessa época além das aulas do colégio, também comecei a acompanhar as aulas dos mestre Guanabara(canal no youtube Curso em Vídeo), já molhando a mão com python, html, css e js.",
-    "text-3": "Durante os anos fui apreendendo várias coisas. Logo que terminei o ensino médio, iniciei minha carreira profissional como analista de suporte e simultaneamente começei na faculdade de ciências da computação. O trabalho me ajudou a fixar vários conhecimentos de redes que eu já possuia, além de me ajudar muito a melhorar minha comunicação, pois tinha que lidar com diversos clientes diariamente, e eu sempre tive uma certa timides.",
-    "text-4": "Com o decorrer dos semestres trabalhando e estudando, comecei a procurar oportunidades para trabalhar na área de desenvolvimento e em 2023 inicei como desenvolvedor java junior, o que me ajudou a direcionar os meus estudos, e assim defini que seguiria no back-end com java e spring boot, nessa época já tinha um conhecimento geral sobre a área.",
-    "text-5": "Atualmente estou no 7° semestre de ciências da computação na Universidade São Judas Tadeu, onde adquiri conhecimentos técnicos referente aos processos da computação e do desenvolvimento como um todo, lógica, estruturas de dados, bancos de dados, IA e modelos de linguagem, javascript, nodejs, angular, python e java.",
-    "text-6": "E sigo estudando, iniciando novos projetos, as vezes dando continuidade em antigos, sempre evitando ficar estagnado."
-  },
-  "theme":{
+  "theme": {
     "light": "Claro",
     "dark": "Escuro",
     "system": "Sistema"
-  },
-  "experience":{
-    "certification": "Certificação",
-    "job": "Trabalho",
-    "university": "Faculdade",
-    "course": "Curso",
-    "current": "Trabalho Atual",
-    "cert-1-title": "EF SET - C2 Proficient",
-    "cert-1-subtitle": "Cerfiticação de inglês - Abril, 2024",
-    "cert-1-description": "Certificação de inglês que segue os mesmos padrões da TOEFL e IELTS, alcancei o nível de C2 Proficient com 72 pontos, onde fui avaliado em leitura e escuta.",
-    "university-1-title": "Bacharelado em Ciências da Computação",
-    "university-1-subtitle": "Universidade São Judas Tadeu - 2020 - 2024",
-    "university-1-description": "Bacharelado em Ciências da Computação, onde estudei a computação como um todo, programação com java, node, angular, python, estruturas de dados, lógica, IA, modelos de linguagem, redes, banco de dados, entre outros.",
-    "job-1-title": "Desenvolvedor Java Jr",
-    "job-1-subtitle": "JGM Empresarial - Maio 2023 - Atual",
-    "job-1-description": "Desenvolvimento de novas aplicações Java. Manutenção e suporte a aplicações existentes, geralmente uso de bancos de dado SQL, desenvolvimento de interfaces com SWING, automações web e Web Scraping com Selenium, entre outras atividades. Tenho de comunicação direta com os usuários finais, sempre tendo o foco em identificar e solucionar os problemas de acordo com a regra de negócio dos processos e necessidades dos usuários.",
-    "job-2-title": "Analista de Suporte",
-    "job-2-subtitle": "G-InfoWork TI - Set 2021 - Maio 2023",
-    "job-2-description": "Atuei como um analista de suporte. Dentre algumas de minhas responsabilidades estavam, controle de Backups com Veeam, cobian e outros, gerenciamento de rede com Windows Server e suas ferramentas, Firewall e VPN com PFSENSE, implantação do sistema de monitoramento Zabbix, além de suporte técnico abrangente (N1 a N3) para clientes de diferentes setores e tamanhos.",
-    "course-1-title": "Curso Técnico de Desenvolvimento de Sistemas e TI",
-    "course-1-subtitle": "Colégio Anchieta - 2018 - 2020",
-    "course-1-description": "Aqui foi onde iniciei meus estudos na área de TI, onde tive contato com as primeiras linguagens de programação, como python, html, css e js, além de ter uma base de redes e sistemas operacionais."
   }
 }

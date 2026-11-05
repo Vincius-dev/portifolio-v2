@@ -13,7 +13,7 @@ export default function LanguageToggle() {
   const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const nextLocale = e.target.value;  
     startTransition(() => {
-      router.replace(`/${nextLocale}/${pathName.substring(pathName.lastIndexOf('/'))}`);
+      router.replace(`/${nextLocale}${pathName.substring(pathName.lastIndexOf('/'))}`);
     });
   };
   
